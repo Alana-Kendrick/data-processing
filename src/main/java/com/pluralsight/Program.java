@@ -22,7 +22,7 @@ public class Program {
         people.add(new Person("Abigail", "Jones", 64));
         people.add(new Person("Tyrone", "Harris", 17));
 
-        System.out.println("Enter name to search: ");
+        System.out.print("Enter name to search: ");
         String name = scanner.nextLine();
         List<Person> matches = new ArrayList<>();
 
